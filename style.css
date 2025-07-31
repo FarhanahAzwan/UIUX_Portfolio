@@ -59,16 +59,13 @@ nav li a:hover {
 }
 
 .hero h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-  color: #007acc;
+  animation: fadeInUp 1s ease-out 0.2s forwards;
+  opacity: 0;
 }
 
 .hero p {
-  font-size: 1.1em;
-  max-width: 600px;
-  margin: 0 auto;
-  color: #444;
+  animation: fadeInUp 1s ease-out 0.4s forwards;
+  opacity: 0;
 }
 
 /* Projects Section */
@@ -133,3 +130,21 @@ footer {
   background: #f0f0f0;
   font-size: 0.9em;
 }
+
+/* Hero animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0; /* Initial state before animation */
+}
+
