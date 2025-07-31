@@ -131,17 +131,33 @@ footer {
   font-size: 0.9em;
 }
 
-/* Hero animation */
+/* Animation keyframes */
 @keyframes fadeInUp {
-  0% {
+  from {
     opacity: 0;
     transform: translateY(30px);
   }
-  100% {
+  to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
+/* Apply animation to hero elements */
+.hero h2,
+.hero p {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.hero h2 {
+  animation-delay: 0.2s;
+}
+
+.hero p {
+  animation-delay: 0.4s;
+}
+
 
 .hero {
   animation: fadeInUp 1s ease-out forwards;
