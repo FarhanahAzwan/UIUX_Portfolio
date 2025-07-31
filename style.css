@@ -51,23 +51,74 @@ nav a {
 }
 
 /* Hero section */
+/* Reset basic styles (optional but helps consistency) */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background: #ffffff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #007acc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #007acc;
+}
+
+/* Hero Section */
 .hero {
-  padding: 4em 1em;
   text-align: center;
-  background: #eaf4fc;
+  padding: 4em 1em 2em;
+  background: #eef6fa;
+  border-bottom: 1px solid #d6eaf8;
 }
 
 .hero h2 {
-  font-size: 2.4em;
-  margin-bottom: 0.4em;
-  color: #222;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #007acc;
 }
 
 .hero p {
   font-size: 1.1em;
   max-width: 600px;
   margin: 0 auto;
+  color: #444;
 }
+
 
 /* Projects section */
 .projects {
