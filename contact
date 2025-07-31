@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nur Farhanah Mohd Azwan</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Let's Work Together</h2>
+      <p>If you're looking for a UI/UX designer with experience in business analysis, project management, and technical support, I'd love to connect. Whether it's a freelance project or a full-time role — I'm open to new and exciting opportunities.</p>
+    </section>
+
+    <section class="contact-section">
+      <h3>Get in Touch</h3>
+      <p><strong>Email:</strong> <a href="mailto:farhanahmohdazwan@gmail.com">farhanahmohdazwan@gmail.com</a></p>
+      <p><strong>Phone:</strong> +60 16-446 2994</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+
+      <h3>Availability</h3>
+      <p>Currently based in Kuala Lumpur, Malaysia. Available for remote and on-site work. Let's collaborate to create solutions that make a difference.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nur Farhanah Mohd Azwan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
