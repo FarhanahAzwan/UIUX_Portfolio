@@ -1,75 +1,4 @@
-/* Reset & base styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  background: #fdfdfd;
-  color: #333;
-  line-height: 1.6;
-  padding: 0;
-}
-
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Header */
-header {
-  background: #101820;
-  color: #fff;
-  padding: 1.5em 2em;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-header h1 {
-  margin-bottom: 0.5em;
-  font-size: 1.8em;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 2em;
-}
-
-nav a {
-  color: #f2f2f2;
-  font-weight: 500;
-}
-
-/* Hero section */
-.hero {
-  padding: 4em 1em;
-  text-align: center;
-  background: #eaf4fc;
-}
-
-.hero h2 {
-  font-size: 2.4em;
-  margin-bottom: 0.4em;
-  color: #222;
-}
-
-.hero p {
-  font-size: 1.1em;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* Projects section */
+/* Project Section */
 .projects {
   padding: 3em 1em;
   max-width: 1000px;
@@ -77,11 +6,31 @@ nav a {
 }
 
 .projects h3 {
-  font-size: 1.8em;
-  margin-bottom: 1em;
   text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 1.5em;
+  color: #222;
 }
 
 .project-grid {
   display: grid;
-  grid-template-col
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+}
+
+/* Card Style */
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 1.5em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.project-card h4 {
+  margi
