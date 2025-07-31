@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>About Me</h2>
+      <p>I’m a dedicated UI/UX designer with a background in human-centered design, digital product strategy, and front-end development. I specialize in translating user needs into intuitive interfaces that balance functionality and aesthetics.</p>
+    </section>
+
+    <section class="about-content">
+      <h3>My Expertise</h3>
+      <ul>
+        <li>Wireframing and Prototyping (Figma, Adobe XD)</li>
+        <li>User Research and Usability Testing</li>
+        <li>Responsive Web Design and Mobile UX</li>
+        <li>Interaction Design and Microinteractions</li>
+        <li>Collaborating with Cross-functional Teams</li>
+      </ul>
+
+      <h3>Background</h3>
+      <p>With a degree in [Your Field] and experience in both startups and enterprise environments, I’ve worked on projects ranging from e-commerce platforms to internal enterprise systems. I’m passionate about solving real user problems and crafting seamless experiences that create impact.</p>
+
+      <h3>Tools I Use</h3>
+      <p>Figma, Adobe XD, Miro, Notion, HTML/CSS, GitHub, and basic JavaScript for prototyping.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
