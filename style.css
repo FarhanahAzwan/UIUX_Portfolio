@@ -13,6 +13,51 @@ body {
   line-height: 1.6;
 }
 
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #eef6fb;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+  color: #005b96;
+}
+
+/* About Section */
+.about-content h3 {
+  margin-top: 2rem;
+  color: #005b96;
+}
+
+.about-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+
+
+
+
 /* Header layout */
 header {
   background: #ffffff;
